@@ -1,10 +1,10 @@
 # Project wide variable
-PROJECT_NAME                          = "demoApp"
+PROJECT_NAME                          = "demo"
 
 # Varibles for the Providers
 AWS_ACCESS_KEY                        = ""
 AWS_SECRET_KEY                        = ""
-AWS_REGION                            = "us-east-2" # US East (Ohio)
+AWS_REGION                            = "us-east-2"
 
 # RDS variable
 RDS_CIDR                              = "0.0.0.0/0"

@@ -3,7 +3,7 @@ resource "aws_security_group" "webservers" {
     Name = "${var.PROJECT_NAME}-ec2-webservers"
   }
   name        = "${var.PROJECT_NAME}-ec2-webservers"
-  description = ""
+  description = "Created by Test"
   vpc_id      = aws_vpc.main.id
 
   ingress {

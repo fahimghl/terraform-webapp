@@ -3,7 +3,7 @@ resource "aws_security_group" "appservers_alb" {
     Name = "${var.PROJECT_NAME}-appservers-ALB"
   }
   name        = "${var.PROJECT_NAME}-appservers-ALB"
-  description = ""
+  description = "Created by Test"
   vpc_id      = aws_vpc.main.id
 
   ingress {
