@@ -2,16 +2,17 @@
 
 ## Create an execution plan
 * terraform plan  - performs a refresh, unless explicitly disabled, and then determines what actions are necessary to achieve the desired state specified in the configuration files.
-in a more compact form that includes only the summary messages.
+
+ **The list of available flags are:**
 
 - destroy - If set, generates a plan to destroy all the known resources.
 
 - detailed-exitcode - Return a detailed exit code when the command exits. When provided, this argument changes the exit codes and their meanings to provide more granular information about what the resulting plan contains:
 
-0 = Succeeded with empty diff (no changes)
-1 = Error
-2 = Succeeded with non-empty diff (changes present)
--input=true - Ask for input for variables if not directly set.
+    0 = Succeeded with empty diff (no changes)
+    1 = Error
+    2 = Succeeded with non-empty diff (changes present)
+    -input=true - Ask for input for variables if not directly set.
 
 - compact-warnings - If Terraform produces any warnings that are not accompanied by errors, show them
 - lock=true - Lock the state file when locking is supported.
