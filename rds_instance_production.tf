@@ -26,7 +26,7 @@ resource "aws_db_subnet_group" "rds_subnet_group" {
 
   tags = {
     Name      = "${var.PROJECT_NAME}-rds-Subnet-Group"
-    ManagedBy = ""
+    ManagedBy = "Test"
   }
 }
 
