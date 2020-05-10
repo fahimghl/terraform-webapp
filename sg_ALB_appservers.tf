@@ -3,7 +3,7 @@ resource "aws_security_group" "appservers_alb" {
     Name = "${var.PROJECT_NAME}-appservers-ALB"
   }
   name        = "${var.PROJECT_NAME}-appservers-ALB"
-  description = "Created by Cloudops"
+  description = ""
   vpc_id      = aws_vpc.main.id
 
   ingress {
