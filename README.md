@@ -1,7 +1,7 @@
 # terraform-webapp fullstack web-app
 
 ## Create an execution plan
-* terraform plan  - performs a refresh, unless explicitly disabled, and then determines what actions are necessary to achieve the desired state specified in the configuration files.
+* **terraform plan**  - performs a refresh, unless explicitly disabled, and then determines what actions are necessary to achieve the desired state specified in the configuration files.
 
  **The list of available flags are:**
 
