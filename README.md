@@ -84,3 +84,6 @@
 
 -  **v ar-file=foo** - Set variables in the Terraform configuration from a variable file. If a terraform.tfvars or any .auto.tfvars files are present in the current directory, they will be automatically loaded. terraform.tfvars is loaded first and the .auto.tfvars files after in alphabetical order. Any files specified by -var-file override any values set automatically from files in the working directory. This flag can be used multiple times.
 
+# Terraform Commands (CLI) Documentation
+*https://www.terraform.io/docs/commands/*
+
